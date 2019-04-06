@@ -1,0 +1,11 @@
+/home/tojatos/Scripts/PageReplacementAlgorithms/bin/Debug/netcoreapp2.2/PageReplacementAlgorithms.deps.json
+/home/tojatos/Scripts/PageReplacementAlgorithms/bin/Debug/netcoreapp2.2/PageReplacementAlgorithms.runtimeconfig.json
+/home/tojatos/Scripts/PageReplacementAlgorithms/bin/Debug/netcoreapp2.2/PageReplacementAlgorithms.runtimeconfig.dev.json
+/home/tojatos/Scripts/PageReplacementAlgorithms/bin/Debug/netcoreapp2.2/PageReplacementAlgorithms.dll
+/home/tojatos/Scripts/PageReplacementAlgorithms/bin/Debug/netcoreapp2.2/PageReplacementAlgorithms.pdb
+/home/tojatos/Scripts/PageReplacementAlgorithms/obj/Debug/netcoreapp2.2/PageReplacementAlgorithms.csprojAssemblyReference.cache
+/home/tojatos/Scripts/PageReplacementAlgorithms/obj/Debug/netcoreapp2.2/PageReplacementAlgorithms.csproj.CoreCompileInputs.cache
+/home/tojatos/Scripts/PageReplacementAlgorithms/obj/Debug/netcoreapp2.2/PageReplacementAlgorithms.AssemblyInfoInputs.cache
+/home/tojatos/Scripts/PageReplacementAlgorithms/obj/Debug/netcoreapp2.2/PageReplacementAlgorithms.AssemblyInfo.cs
+/home/tojatos/Scripts/PageReplacementAlgorithms/obj/Debug/netcoreapp2.2/PageReplacementAlgorithms.dll
+/home/tojatos/Scripts/PageReplacementAlgorithms/obj/Debug/netcoreapp2.2/PageReplacementAlgorithms.pdb
