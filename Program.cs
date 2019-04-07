@@ -16,21 +16,25 @@ namespace PageReplacementAlgorithms
             var fcfsFaults = new List<int>();
             var optFaults = new List<int>();
             var lruFaults = new List<int>();
+            var randFaults = new List<int>();
             try
             {
                 var fcfs = new Fifo();
                 var opt = new Opt();
                 var lru = new Lru();
+                var rand = new Rand();
                 for (int i = 0; i < TestSeries; ++i)
                 {
                     List<int> requests = GenerateRequests(RequestCount);
                     fcfsFaults.Add(fcfs.Simulate(requests));
-                     optFaults.Add(opt.Simulate(requests));
+                    optFaults.Add(opt.Simulate(requests));
                     lruFaults.Add(lru.Simulate(requests));
+                    randFaults.Add(rand.Simulate(requests));
                 }
                 Console.WriteLine($"FIFO average faults: {fcfsFaults.Average()}");
                 Console.WriteLine($"OPT average faults: {optFaults.Average()}");
                 Console.WriteLine($"LRU average faults: {lruFaults.Average()}");
+                Console.WriteLine($"RAND average faults: {randFaults.Average()}");
             }
             catch (Exception e)
             {

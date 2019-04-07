@@ -11,6 +11,7 @@
       <e p="PageReplacementAlgorithms.csproj" t="IncludeRecursive" />
       <e p="PageReplacementAlgorithms.sln" t="IncludeFlat" />
       <e p="Program.cs" t="Include" />
+      <e p="Rand.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
