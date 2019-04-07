@@ -6,6 +6,7 @@
       <e p=".gitignore" t="Include" />
       <e p="Fifo.cs" t="Include" />
       <e p="IdGenerator.cs" t="Include" />
+      <e p="Lru.cs" t="Include" />
       <e p="Opt.cs" t="Include" />
       <e p="PageReplacementAlgorithms.csproj" t="IncludeRecursive" />
       <e p="PageReplacementAlgorithms.sln" t="IncludeFlat" />

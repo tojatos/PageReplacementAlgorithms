@@ -6,7 +6,7 @@ namespace PageReplacementAlgorithms
 {
     internal static class Program
     {
-        private const int TestSeries = 100;
+        private const int TestSeries = 30;
         public const int PageCount = 100;
         public const int FrameCount = 10;
         public const int RequestCount = 2000;
@@ -15,18 +15,22 @@ namespace PageReplacementAlgorithms
         {
             var fcfsFaults = new List<int>();
             var optFaults = new List<int>();
+            var lruFaults = new List<int>();
             try
             {
                 var fcfs = new Fifo();
                 var opt = new Opt();
+                var lru = new Lru();
                 for (int i = 0; i < TestSeries; ++i)
                 {
                     List<int> requests = GenerateRequests(RequestCount);
                     fcfsFaults.Add(fcfs.Simulate(requests));
-                    optFaults.Add(opt.Simulate(requests));
+                     optFaults.Add(opt.Simulate(requests));
+                    lruFaults.Add(lru.Simulate(requests));
                 }
-                Console.WriteLine($"FCFS average faults: {fcfsFaults.Average()}");
+                Console.WriteLine($"FIFO average faults: {fcfsFaults.Average()}");
                 Console.WriteLine($"OPT average faults: {optFaults.Average()}");
+                Console.WriteLine($"LRU average faults: {lruFaults.Average()}");
             }
             catch (Exception e)
             {
